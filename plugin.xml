@@ -25,7 +25,7 @@
     <config-file target="AndroidManifest.xml" parent="/*">
         <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
         <receiver
-                android:name=".BootReceiver"
+                android:name="com.example.plugin.BootReceiver"
                 android:enabled="true"
                 android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
         <intent-filter>
